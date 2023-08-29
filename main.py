@@ -2,7 +2,6 @@
 # Find 3 objects around the room and create variables from it,
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
 
-
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
 # Print today's date.
@@ -11,18 +10,7 @@
 # Print your name and age on separate lines using a single print() function.
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
 
-
 ###########################end bell ringer##################################
-
-
-
-
-
-
-
-
-
-
 
 ###########################String Practice##################################
 #syntax is the way we write code
@@ -33,9 +21,9 @@
 #variabes with let or const or var
 #in python, you just give your variables a
 #name and then define it with a value
-word = "python is cool and stuff" #string variable
+word = "python is cool and stuff"  #string variable
 print(word)
-print (word[0]) #prints the first letter of the string
+print(word[0])  #prints the first letter of the string
 print(word[13])
 print(word[19])
 print(word[23])
@@ -44,14 +32,14 @@ print(word[-2])
 print(word[-3])
 #string slicing
 print(word[10:14])
-     #inclusive   #spxclusive
+#inclusive   #spxclusive
 print(word[19:24])
 print(word[0:7])
 print(word[7:9])
 print(word[15:18])
 print(word[:-1])
 print(word[23])
-print(len(word)) #gives you length of the entire string
+print(len(word))  #gives you length of the entire string
 print(word[5:])
 #what if I want to find a substring
 #a substring is a word inside of the sentence
@@ -61,15 +49,15 @@ print(word.find("and"))
 #how do we find uppercase letters?
 print(word.upper())
 print(word.capitalize())
-#this capitaLIZES THE FIRST LETTER  
+#this capitaLIZES THE FIRST LETTER
 cool = word[10:14]
 print(cool)
 print(cool.capitalize())
-print(word.replace("python","javascript"))
+print(word.replace("python", "javascript"))
 print(word)
 
 #challenge
-# find a summary of blue beetle online and create a 
+# find a summary of blue beetle online and create a
 # variable called blue_beetle_summary and print it
 # hint: google it
 # print the length of the summary
@@ -85,15 +73,11 @@ blue_beetle_summary = "Recent college grad Jaime Reyes returns home full of aspi
 print(len(blue_beetle_summary))
 print(blue_beetle_summary)
 print(blue_beetle_summary.lower())
-print(blue_beetle_summary.replace("BLUE","RED"))
-beetle= "beetle"
+print(blue_beetle_summary.replace("BLUE", "RED"))
+beetle = "beetle"
 print(beetle)
 print(blue_beetle_summary[532:539])
 print(blue_beetle_summary[::-1])
-
-
-
-
 
 # String Practice #1: try this in repl.it
 # Define a string containing your full name.
@@ -137,7 +121,6 @@ print(blue_beetle_summary[::-1])
 
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
 
 ###########################time for a real challenge!!!!##################################
 # last slide
